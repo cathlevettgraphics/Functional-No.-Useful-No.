@@ -112,6 +112,18 @@ body {
   cursor: pointer;
 }
 
+.carousel-container.dark {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100vw;
+  -webkit-margin-after: 60px;
+          margin-block-end: 60px;
+  background-color: #dadada;
+  padding: 10px 0;
+  cursor: pointer;
+}
+
 .carousel-images {
   max-height: 250px;
   overflow: hidden;
@@ -123,7 +135,9 @@ body {
 
 .carousel-images .bubble-image,
 .carousel-images .grid-image,
-.carousel-images .type-image {
+.carousel-images .type-image,
+.carousel-images .type-image-dark,
+.carousel-images .bubble-image-dark {
   -ms-flex-negative: 0;
       flex-shrink: 0;
   width: 250px;
@@ -145,6 +159,15 @@ body {
   font-size: 1.4rem;
 }
 
+.type-image-dark,
+.bubble-image-dark {
+  background-color: black;
+}
+
+.image-number.dark {
+  color: #fff;
+}
+
 @media (min-width: 961px) {
   .carousel-images {
     width: 100vw;
@@ -152,7 +175,9 @@ body {
   }
   .carousel-images .bubble-image,
   .carousel-images .grid-image,
-  .carousel-images .type-image {
+  .carousel-images .type-image,
+  .carousel-images .type-image-dark,
+  .carousel-images .bubble-image-dark {
     width: 300px;
     height: 300px;
   }
@@ -166,8 +191,6 @@ body {
   max-inline-size: 100vw;
   padding: 15px 20px;
   background-color: #dffbfc;
-  -webkit-margin-after: 30px;
-          margin-block-end: 30px;
 }
 
 .bottom-nav-items {
@@ -203,8 +226,6 @@ a:hover {
   .bottom-nav {
     max-inline-size: 100vw;
     background-color: #dffbfc;
-    -webkit-margin-after: 30px;
-            margin-block-end: 30px;
   }
   .bottom-nav-items {
     display: -webkit-box;
@@ -305,6 +326,46 @@ a:hover {
   background-image: url(./../assets/white-bg/bubble/bubble-010.png);
 }
 
+.bubble-image-dark.bubble-dark-001 {
+  background-image: url(./../assets/black-bg/dark-bubble/dark-bubble-001.png);
+}
+
+.bubble-image-dark.bubble-dark-002 {
+  background-image: url(./../assets/black-bg/dark-bubble/dark-bubble-002.png);
+}
+
+.bubble-image-dark.bubble-dark-003 {
+  background-image: url(./../assets/black-bg/dark-bubble/dark-bubble-003.png);
+}
+
+.bubble-image-dark.bubble-dark-004 {
+  background-image: url(./../assets/black-bg/dark-bubble/dark-bubble-004.png);
+}
+
+.bubble-image-dark.bubble-dark-005 {
+  background-image: url(./../assets/black-bg/dark-bubble/dark-bubble-005.png);
+}
+
+.bubble-image-dark.bubble-dark-006 {
+  background-image: url(./../assets/black-bg/dark-bubble/dark-bubble-006.png);
+}
+
+.bubble-image-dark.bubble-dark-007 {
+  background-image: url(./../assets/black-bg/dark-bubble/dark-bubble-007.png);
+}
+
+.bubble-image-dark.bubble-dark-008 {
+  background-image: url(./../assets/black-bg/dark-bubble/dark-bubble-008.png);
+}
+
+.bubble-image-dark.bubble-dark-009 {
+  background-image: url(./../assets/black-bg/dark-bubble/dark-bubble-009.png);
+}
+
+.bubble-image-dark.bubble-010 {
+  background-image: url(./../assets/white-bg/bubble/bubble-010.png);
+}
+
 .type-image.type-001 {
   background-image: url(./../assets/white-bg/typography/type-001.png);
 }
@@ -331,5 +392,53 @@ a:hover {
 
 .type-image.type-007 {
   background-image: url(./../assets/white-bg/typography/type-007.png);
+}
+
+.type-image-dark.type-dark-001 {
+  background-image: url(./../assets/black-bg/dark-type/dark-type-001.png);
+}
+
+.type-image-dark.type-dark-002 {
+  background-image: url(./../assets/black-bg/dark-type/dark-type-002.png);
+}
+
+.type-image-dark.type-dark-003 {
+  background-image: url(./../assets/black-bg/dark-type/dark-type-003.png);
+}
+
+.type-image-dark.type-dark-004 {
+  background-image: url(./../assets/black-bg/dark-type/dark-type-004.png);
+}
+
+.type-image-dark.type-dark-005 {
+  background-image: url(./../assets/black-bg/dark-type/dark-type-005.png);
+}
+
+.type-image-dark.type-dark-006 {
+  background-image: url(./../assets/black-bg/dark-type/dark-type-006.png);
+}
+
+.type-image-dark.type-dark-007 {
+  background-image: url(./../assets/black-bg/dark-type/dark-type-007.png);
+}
+
+.type-image-dark.type-dark-008 {
+  background-image: url(./../assets/black-bg/dark-type/dark-type-008.png);
+}
+
+.type-image-dark.type-dark-009 {
+  background-image: url(./../assets/black-bg/dark-type/dark-type-009.png);
+}
+
+.type-image-dark.type-dark-010 {
+  background-image: url(./../assets/black-bg/dark-type/dark-type-010.png);
+}
+
+.type-image-dark.type-dark-011 {
+  background-image: url(./../assets/black-bg/dark-type/dark-type-011.png);
+}
+
+.type-image-dark.type-dark-012 {
+  background-image: url(./../assets/black-bg/dark-type/dark-type-012.png);
 }
 /*# sourceMappingURL=main.css.map */
